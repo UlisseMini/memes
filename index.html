@@ -21,7 +21,7 @@
       this.memes = []
       this.currentMeme = -1
       fetch('files.txt').then(r => r.text()).then(text => {
-        this.memes = text.split('\n')
+        this.memes = text.split('\n').filter(f => f.match(/\.(png|jpg|gif)$/g))
         this.currentMeme = 0
         updateImage()
       })
