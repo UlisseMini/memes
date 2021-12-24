@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Memes</title>
+    <!-- <meta name="description" content=""> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+    img {
+      display: inline-block;
+      max-width: 100%;
+    }
+    </style>
+
+    <script>
+      this.memes = []
+      this.currentMeme = -1
+      fetch('files.txt').then(r => r.text()).then(text => {
+        this.memes = text.split('\n')
+        this.currentMeme = 0
+        updateImage()
+      })
+
+      function updateImage() {
+        document.querySelector('img').src = this.memes[this.currentMeme]
+        document.querySelector('h1').textContent = `Meme ${this.currentMeme+1}/${this.memes.length}`
+      }
+
+      function randomMeme() {
+        this.currentMeme = Math.floor(Math.random()*this.memes.length)
+        updateImage()
+      }
+      function nextMeme() { this.currentMeme++; updateImage() }
+      function previousMeme() { this.currentMeme--; updateImage() }
+    </script>
+  </head>
+  <body>
+    <h1>Loading</h1>
+    <div>
+      <button onClick="previousMeme()">Previous</button>
+      <button onClick="randomMeme()">Random</button>
+      <button onClick="nextMeme()">Next</button>
+    </div>
+    <img src=""></img>
+  </body>
+</html>
