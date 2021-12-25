@@ -50,6 +50,7 @@ pronouns-cannon-fodder.png
 recursive-centaur.png
 reference-dinosaurs.png
 reverse-communism.jpg
+santa-bigbrain.png
 sci-fi-speculation.png
 smaller-boat-plan-c.png
 smart-fridge.png
@@ -77,4 +78,5 @@ what-the-dog-doin.png
 which-are-you-betting-on.png
 who-they-are-trolling.png
 without-copyright-law.png
+xmas-interview.png
 zealous_autoconfig_xkcd.png
