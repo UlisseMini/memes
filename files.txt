@@ -24,6 +24,7 @@ existence_proof_xkcd.png
 files.txt
 final_exam_xkcd.png
 final-trolly-problem.png
+george-too-curious.png
 goat-92-deg.jpg
 godel-concrete.png
 gov-or-priv-sector.png
@@ -71,6 +72,7 @@ trolly-arithmetica.png
 trolly-hellfire-missle.png
 twitch-open-sourced.png
 types-of-alignment-paper.png
+update
 used-to-think-you-were-smart.png
 villain-friendship.png
 voting_software_xkcd.png

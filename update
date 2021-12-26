@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ls > files.txt
+git add .
+git commit -am "Add memes"
