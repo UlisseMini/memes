@@ -13,6 +13,7 @@ bowl_xkcd.jpg
 boxers.png
 catgirl-ethics.png
 chad-scraper.png
+cia-award.png
 clone-dilemma.png
 coal.png
 common-chess-mistake.png
@@ -30,6 +31,7 @@ godel-concrete.png
 gov-or-priv-sector.png
 hagrid.png
 help-by-expanding-it.png
+hustle.png
 index.html
 i-return-to-this-shattered-world.png
 judgment_day_xkcd.png
