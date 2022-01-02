@@ -29,6 +29,7 @@ george-too-curious.png
 goat-92-deg.jpg
 godel-concrete.png
 gov-or-priv-sector.png
+grind-to-disappear.png
 hagrid.png
 help-by-expanding-it.png
 hustle.png
@@ -81,6 +82,7 @@ voting_software_xkcd.png
 what-the-dog-doin.png
 which-are-you-betting-on.png
 who-they-are-trolling.png
+why-not-dead.jpg
 without-copyright-law.png
 xmas-interview.png
 zealous_autoconfig_xkcd.png
